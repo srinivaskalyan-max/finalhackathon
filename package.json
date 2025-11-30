@@ -1,0 +1,36 @@
+{
+  "name": "educational-library-backend",
+  "version": "1.0.0",
+  "description": "Backend for Educational Resource Library",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seedData.js"
+  },
+  "keywords": [
+    "education",
+    "library",
+    "resources"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^7.0.11",
+    "socket.io": "^4.8.1",
+    "stripe": "^20.0.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
